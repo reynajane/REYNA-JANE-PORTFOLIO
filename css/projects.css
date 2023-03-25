@@ -105,6 +105,15 @@ nav .fa{
   padding-top: 100px;
 }
 
+.projects h2{
+  font-size: 4rem;
+}
+
+.projects p{
+  font-size: 1rem;
+}
+
+
 h1{
   font-size: 36px;
   font-weight: 600;
