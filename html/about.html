@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reyna Jane Cabuga PORTFOLIO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome-free/4.7.0/css/font-awesome.min.css">
+  
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" >
+  <script src="https://kit.fontawesome.com/82fac282cd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/about.css">
+
+</head>
+<body>
+<section class="header">
+<nav>
+    <a href="/html/index.html"><img src="/images/logo.webp"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="/html/index.html">HOME</a></li>
+        <li><a href="/html/about.html">ABOUT</a></li>
+        <li><a href="/html/projects.html">PROJECTS</a></li>
+        <li><a href="/html/contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+</section>
+<!---------------------- ABOUT SECTION --------------------->
+
+<section class="about-page">
+  <h1>WORK EXPERIENCES</h1>
+  <p>For me working in a great and fun environment makes me to stay longer in a certain company.<br>
+  Having a good relationship towards colleagues is also one of the factors.</p>
+
+     <div class="row">
+      <div class="about-col">
+        <h3>TECHNICAL SUPPORT REP</h3>
+        <p>I once a working student in a BPO company for 2 years <br>(CY: 2016-2018). 
+          <br>I love my job so much and it becomes my training ground of were I am right now. 
+          We conduct basic troubleshooting to our clients to restore their internet connectivity</p>
+      </div>
+      <div class="about-col">
+        <h3>CUSTOMER SUPPORT REPRESENTATIVE</h3>
+        <p>I also tried to have work experience in an International company, 
+          even just short period of time.</p>
+      </div>
+      <div class="about-col">
+        <h3>ACCOUNT MANAGER</h3>
+        <p>Currently, I am working here as an Account Manager (CY: 2020-Present), handling various clients in the industry.
+          Our company provides IT products and services that will definitely augment ones business.
+        </p>
+      </div>
+     </div>
+</section>
+
+<!-- **************************** FOOTER SECTION ************************* -->
+<footer>
+  <p class="footer">Copyright 2023 &copy; Reyna Jane Cabuga</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+  integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+  crossorigin="anonymous"></script>
+
+<!-- ------------- JAVASCRIPT FOR TOGGLE MENU --------------------- -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+</body>
+</html> 
